@@ -1,9 +1,5 @@
-# Traffic Data Analysis & Anomaly Detection
-
-This project focuses on analyzing traffic dataset values such as vehicle count and traffic violations, and identifying abnormal patterns using statistical methods like Z-Score anomaly detection. The goal is to detect unusual spikes, drops, or irregular behavior in traffic flow.
-
- Project Features
- Data Preprocessing
+📂 Project Features
+✔️ Data Preprocessing
 
 Load dataset (CSV/Excel).
 
@@ -13,7 +9,7 @@ Handle non-numeric categorical values such as “No Helmet”, “Using Mobile P
 
 Clean missing or inconsistent values.
 
- Statistical Analysis
+✔️ Statistical Analysis
 
 Computation of average vehicle count.
 
@@ -21,7 +17,7 @@ Identification of peak traffic hours.
 
 Generation of z-scores to detect abnormal readings.
 
- Anomaly Detection
+✔️ Anomaly Detection
 
 Using Z-score:
 
@@ -36,15 +32,15 @@ A value is considered an anomaly if:
 
 Detects unusual traffic spikes or suspiciously low values.
 
- Output
+✔️ Output
 
 Prints peak traffic hour with vehicle count
 
 Displays all anomaly rows
 
-Saves analysis results (optional) 
+Saves analysis results (optional)
 
-Technologies Used
+📊 Technologies Used
 
 Python 3
 
@@ -54,7 +50,7 @@ NumPy (optional)
 
 Jupyter Notebook / Google Colab
 
- Dataset Requirements
+📁 Dataset Requirements
 
 Your dataset should include:
 
@@ -64,8 +60,7 @@ Optional categorical column for traffic violations
 
 No merged/combined string fields for numeric data
 
-
- Use Cases
+🛡️ Use Cases
 
 Traffic monitoring systems
 
